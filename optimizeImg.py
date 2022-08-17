@@ -2,7 +2,7 @@ from PIL import Image # python -m pip install Pillow
 
 import os
 
-pictures = "/Users/user>/OneDrive/Music/img/"
+pictures = "/Users/<user>/OneDrive/Music/img/"
 
 if __name__ == "__main__":
   
