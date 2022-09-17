@@ -9,3 +9,6 @@
 
 ## Tutorials
 <a href="https://www.w3schools.com/python/default.asp">Official python tutorial - W3Schools</a>
+
+## Install python modules
+To compress pdf files: python -m pip install PDFNetPython3
