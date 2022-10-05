@@ -1,10 +1,9 @@
 print("Hello, World!") # This is a comment.
 
-numero1 = 5
-saludo = "Hello, World!"
-numero2 = 4
-nombre = "Sally"
-lista = ["apple", "banana", "cherry"]
+number1 = 5
+number2 = 4
+name = "Sally"
+list = ["apple", "banana", "cherry"]
 dictionary = {
   "brand": "Ford",
   "model": "Mustang",
@@ -20,23 +19,23 @@ more than just one line
 if 5 > 2:
   print("Five is greater than two!")
 
-print(numero1)
-print(saludo)
-print(numero2)
-print(nombre)
+print(number1)
+print("Hello, World!")
+print(number2)
+print(name)
 print(type(1))
 print(type(2.8))
 print(type(1j))
 print(10 > 9)
 print(10 == 9)
 print(10 < 9)
-print(lista)
+print(list)
 
-thisdict = {
+cars = {
   "brand": "Ford",
   "model": "Mustang",
   "year": 1964
 }
 
-print(thisdict["brand"])
+print(cars["brand"])
 print(type(dictionary))

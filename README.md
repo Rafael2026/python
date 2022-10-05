@@ -1,14 +1,14 @@
 ## Execution
-<p>python file.py</p>
+python file.py
 
 ## Official website
-<a href="https://www.python.org/downloads/">Download Python</a>
+[Download Python](https://www.python.org/downloads/)
 
 ## Check your python version
-<p>python --version</p>
+python --version
 
 ## Tutorials
-<a href="https://www.w3schools.com/python/default.asp">Official python tutorial - W3Schools</a>
+[W3Schools](https://www.w3schools.com/python/default.asp)
 
 ## Install python modules
 To compress pdf files: python -m pip install PDFNetPython3

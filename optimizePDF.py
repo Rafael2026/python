@@ -1,6 +1,3 @@
-import site
-site.addsitedir(r"...pathToPDFTron\PDFNetWrappersWin32\PDFNetC\Lib")
-
 from PDFNetPython3 import PDFDoc, Optimizer, SDFDoc
 
 doc = PDFDoc("PDF filepath")
