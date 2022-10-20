@@ -27,7 +27,7 @@ pip install git+https://github.com/openai/whisper.git
 pip install pytube
 ```
 
-## Install ffmpeg and the previous python module
+## Install ffmpeg and the previous python modules
 ```bash
 # For Ubuntu
 sudo apt update && sudo apt install ffmpeg
