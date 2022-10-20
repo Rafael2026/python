@@ -33,7 +33,7 @@ pip install pytube
 sudo apt update && sudo apt install ffmpeg
 # For Arch Linux
 sudo pacman -S ffmpeg
-  For #  MacOS con Homebrew (https://brew.sh/)
+# For MacOS con Homebrew (https://brew.sh/)
 brew install ffmpeg
 # For Windows con Chocolatey (https://chocolatey.org/)
 choco install ffmpeg
