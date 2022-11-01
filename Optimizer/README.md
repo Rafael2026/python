@@ -10,6 +10,7 @@ Execute PDF optimizer
 ```bash
 python optimizePDF.py
 ```
+
 ## Install pyhon modules
 To compress pdf files:
 
