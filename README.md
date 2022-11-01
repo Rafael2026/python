@@ -14,7 +14,7 @@ python --version
 The following words cannot be used as variables, constants or any other identifier names. All the Python keywords contain only lowercase letters.
 
 | Header1 | Header2 | Header3 |
-|--- -|------|-----|
+|---|---|---|
 | and | exec | not |
 | assert | finally | or |
 | break | for | pass |
