@@ -47,7 +47,7 @@ while True:
   # Folder name was filled in, make a list of files in the folder
   if event == "-FOLDER-":
     
-    folder = values["-FOLDER-"]
+    folder = values["-FOLDER-"].replace("\\", "/")
     
     try:
       # Get list of files in folder
@@ -65,14 +65,18 @@ while True:
     
     window["-FILE LIST-"].update(fnames)
     
-  elif event == "-FILE LIST-":  # A file was chosen from the listbox
+  elif event == "-FILE LIST-": # A file was chosen from the listbox
     
     try:
       
-      filename = os.path.join(values["-FOLDER-"], values["-FILE LIST-"][0]).replace("\\", "/")
-      
-      window["-TOUT-"].update(filename)
-      window["-IMAGE-"].update(filename=filename)
+      filename = os.path.join(folder, values["-FILE LIST-"][0]).replace("\\", "/")
+      filePath = os.path.join(folder, filename).replace("\\", "/")
+      window["-TOUT-"].update(filePath.replace("\\", "/"))
+      window["-IMAGE-"].update(filename=filePath.replace("\\", "/"))
+
+      #filename = values["-FILE LIST-"][0]
+      #window["-TOUT-"].update(filename)
+      #window["-IMAGE-"].update(filename=os.path.join(folder, filename))
 
     except:
       pass
