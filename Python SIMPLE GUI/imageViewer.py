@@ -5,7 +5,6 @@ import os.path
 
 # First the window layout in 2 columns
 file_list_column = [
-  
   [
     sg.Text("Image Folder"),
     sg.In(size=(25, 1), enable_events=True, key="-FOLDER-"),
@@ -57,20 +56,20 @@ while True:
       
       file_list = []
 
-      fnames = [
-        f
-        for f in file_list
-          if os.path.isfile(os.path.join(folder, f))
-          and f.lower().endswith((".jpg", ".png", ".gif", ".JPG", ".PNG", ".webp"))
-      ]
-      
-      window["-FILE LIST-"].update(fnames)
+    fnames = [
+      f
+      for f in file_list
+        if os.path.isfile(os.path.join(folder, f))
+        and f.lower().endswith((".jpg", ".png", ".gif", ".JPG", ".PNG", ".webp"))
+    ]
+    
+    window["-FILE LIST-"].update(fnames)
     
   elif event == "-FILE LIST-":  # A file was chosen from the listbox
     
     try:
       
-      filename = os.path.join(values["-FOLDER-"], values["-FILE LIST-"][0])
+      filename = os.path.join(values["-FOLDER-"], values["-FILE LIST-"][0]).replace("\\", "/")
       
       window["-TOUT-"].update(filename)
       window["-IMAGE-"].update(filename=filename)
