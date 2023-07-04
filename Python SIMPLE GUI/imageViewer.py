@@ -28,7 +28,6 @@ image_viewer_column = [
 
 # ----- Full layout -----
 layout = [
-  
   [
     sg.Column(file_list_column),
     sg.VSeperator(),
@@ -62,7 +61,7 @@ while True:
         f
         for f in file_list
           if os.path.isfile(os.path.join(folder, f))
-          and f.lower().endswith((".png", ".gif"))
+          and f.lower().endswith((".jpg", ".png", ".gif", ".JPG", ".PNG", ".webp"))
       ]
       
       window["-FILE LIST-"].update(fnames)
