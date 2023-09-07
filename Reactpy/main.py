@@ -4,7 +4,14 @@ from fastapi import FastAPI
 
 @component
 def HelloWorld():
-  return html.div('Hello World')
+  return html.div(
+    html.h1('Lista de Tareas'),
+    html.ul(
+      html.li('Tarea 1'),
+      html.li('Tarea 2'),
+      html.li('Tarea 3'),
+    )
+  )
 
 
 app = FastAPI()
