@@ -1,6 +1,3 @@
-#import qiskit
-#qiskit.qiskit_version*
-
 #from qiskit import QuantumCircuit
 from qiskit import QuantumCircuit, Aer, execute
 from qiskit.visualization import plot_bloch_multivector, plot_histogram

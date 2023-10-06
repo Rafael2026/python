@@ -1,7 +1,7 @@
 import qiskit
 import math
 from qiskit import QuantumRegister, ClassicalRegister, QuantumCircuit, execute, BasicAer, IBMQ
-from qiskit.providers.ibmq import least_busy
+#from qiskit.providers.ibmq import least_busy
 
 qr = qiskit.QuantumRegister(2)
 cr = qiskit.ClassicalRegister(2)
@@ -24,4 +24,4 @@ token = "TOKEN"
 IBMQ.save_account(token, overwrite=True)
 IBMQ.load_account()
 
-backend = least_busy(IBMQ.backends())
+#backend = least_busy(IBMQ.backends())
