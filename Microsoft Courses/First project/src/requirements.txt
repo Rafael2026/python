@@ -1,6 +1,6 @@
 adb-shell>=0.4.4
 altgraph>=0.17.4
-anyio>=4.0.0
+anyio>=4.4.0
 appdirs>=1.4.4
 argon2-cffi>=23.1.0
 argon2-cffi-bindings>=21.2.0
