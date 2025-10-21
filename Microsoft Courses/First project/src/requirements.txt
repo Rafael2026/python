@@ -132,7 +132,7 @@ libusb1==3.3.1
 llvmlite==0.44.0
 lxml==5.4.0
 magika==0.6.2
-mammoth==1.9.1
+mammoth==1.11.0
 Markdown==3.8
 markdown-it-py==3.0.0
 markdownify==1.1.0
